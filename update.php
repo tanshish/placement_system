@@ -89,7 +89,7 @@ $inetrShortList=$_GET['interShortList'];
 		  
 		<p>
 		<label for="Name"> BBT:</label>
-        <input type="text" value="<?php echo "$bbt" ?>" name="bbt" required>
+        <input type="text" value="<?php echo "$bbt "?>" name="bbt" required>
 		</p>
    
 		<p>

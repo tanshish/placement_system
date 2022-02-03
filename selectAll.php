@@ -264,9 +264,6 @@
 
 <!-- table3 ends -->
 
-
-
-
 <!-- 3 -->
 <script src="//cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
 <!-- 4 -->
