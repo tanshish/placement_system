@@ -173,30 +173,30 @@ $inetrShortList=$_GET['interShortList'];
 <?php
 if($_GET['submit'])
 {
-$cid=$_GET['cid'];
-$bcs=$_GET['bcs'];
-$bit=$_GET['bit'];
-$bec=$_GET['bec'];
-$bee=$_GET['bee'];
-$bei=$_GET['bei'];
-$bmt=$_GET['bmt'];
-$bbt=$_GET['bbt'];
-$bce=$_GET['bce'];
-$mca=$_GET['mca'];
-$mccs=$_GET['mccs'];
-$mcs=$_GET['mcs'];
-$mit=$_GET['mit'];
-$mvlsi=$_GET['mvlsi'];
-$mrs=$_GET['mrs'];
-$ts=$_GET['ts'];
-$tst=$_GET['tst'];
-$is=$_GET['is'];
-$ie=$_GET['ie'];
-$rdt=$_GET['rdt'];
-$gd=$_GET['gd'];
-$wrt=$_GET['wrt'];
-$isl=$_GET['isl'];
-		$query = "UPDATE eligible_courses SET bcs='$bcs ' ,b_it='$bit',bec='$bec ' ,bee='$bee ' ,bei='$bei' ,bmt='$bmt',bbt='$bbt',bce='$bce',mca='$mca',msccs='$mccs',mcs='$mcs',mit='$mit',mvlsi='$mvlsi',mrs='$mrs',totEleStu='$ts',test='$tst',interS='$is',interE='$ie',resdt='$rdt',written='$wrt',interShortList='$isl' WHERE compid = '$cid' ";
+	$compid=$_GET['compid'];
+	$bcs=$_GET['bcs'];
+	$b_it=$_GET['b_it'];
+	$bec=$_GET['bec'];
+	$bee=$_GET['bee'];
+	$bei=$_GET['bei'];
+	$bmt=$_GET['bmt'];
+	$bbt=$_GET['bbt'];
+	$bce=$_GET['bce'];
+	$mca=$_GET['mca'];
+	$msccs=$_GET['msccs'];
+	$mcs=$_GET['mcs'];
+	$mit=$_GET['mit'];
+	$mvlsi=$_GET['mvlsi'];
+	$mrs=$_GET['mrs'];
+	$totEleStu=$_GET['totEleStu'];
+	$test=$_GET['test'];
+	$inetrS=$_GET['interS'];
+	$interE=$_GET['interE'];
+	$resdt=$_GET['resdt'];
+	$gd=$_GET['gd'];
+	$written=$_GET['written'];
+	$inetrShortList=$_GET['interShortList'];
+		$query = "UPDATE eligible_courses SET bcs='$bcs ' ,b_it='$b_it',bec='$bec ' ,bee='$bee ' ,bei='$bei' ,bmt='$bmt',bbt='$bbt',bce='$bce',mca='$mca',msccs='$msccs',mcs='$mcs',mit='$mit',mvlsi='$mvlsi',mrs='$mrs',totEleStu='$totEleStu',test='$test',interS='$interS',interE='$interE',resdt='$resdt',written='$written',interShortList='$interShortList' WHERE compid = '$compid' ";
 		$data = mysqli_query($conn,$query);
 		if($data)
 		{
