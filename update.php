@@ -24,9 +24,6 @@ $resdt=$_GET['resdt'];
 $gd=$_GET['gd'];
 $written=$_GET['written'];
 $inetrShortList=$_GET['interShortList'];
-
-
-
 ?>
 
 <html>
