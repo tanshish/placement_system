@@ -83,7 +83,7 @@
                 <td>'.$smi.'</td>
                 <th scope="row">'.$fte.'</th>
                 <td>
-                    <button class="btn btn-primary" style="width: 100px; height: 50px;"><a href=""></a> Update</button> <button class="btn btn-danger" style="width: 100px; height: 50px;"><a href=""></a> Delete</button>
+                    <button class="btn btn-primary" style="width: 100px; height: 50px;"><a href="update1.php" style="color: white">update</a></button> <button class="btn btn-danger" style="width: 100px; height: 50px;"><a href=""></a> Delete</button>
                 </td>
               </tr>';
             }
@@ -144,7 +144,7 @@
                 <th scope="row">'.$pposmi.'</th>
                 <td>'.$placed.'</td>
                 <td>
-                    <button class="btn btn-primary" style="width: 100px; height: 50px;"><a href=""></a> Update</button> <button class="btn btn-danger" style="width: 100px; height: 50px;"><a href=""></a> Delete</button>
+                    <button class="btn btn-primary" style="width: 100px; height: 50px;"><a href="update2.php" style="color: white">Update</a></button> <button class="btn btn-danger" style="width: 100px; height: 50px;"><a href=""></a> Delete</button>
                 </td>
               </tr>';
             }
@@ -249,7 +249,11 @@
                 <th scope="row">'.$gd.'</th>
                 <td>'.$interShortList.'</td>
                 <td>
+<<<<<<< HEAD
                     <button class="btn btn-primary" style="width: 100px; height: 50px;"><a href="update.php" class="text-light">update</a></button> <button class="btn btn-danger" style="width: 100px; height: 50px;"><a href=""></a> Delete</button>
+=======
+                    <button class="btn btn-primary" style="width: 100px; height: 50px;"><a href="update.php" style="color: white;">update</a></button> <button class="btn btn-danger" style="width: 100px; height: 50px;"><a href=""></a> Delete</button>
+>>>>>>> 1b1caa56287e98404f9a1b338856ac7fd12ff69f
                 </td>
               </tr>';
             }
