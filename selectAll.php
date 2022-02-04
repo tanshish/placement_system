@@ -249,7 +249,11 @@
                 <th scope="row">'.$gd.'</th>
                 <td>'.$interShortList.'</td>
                 <td>
+<<<<<<< HEAD
+                    <button class="btn btn-primary" style="width: 100px; height: 50px;"><a href="update.php" class="text-light">update</a></button> <button class="btn btn-danger" style="width: 100px; height: 50px;"><a href=""></a> Delete</button>
+=======
                     <button class="btn btn-primary" style="width: 100px; height: 50px;"><a href="update.php" style="color: white;">update</a></button> <button class="btn btn-danger" style="width: 100px; height: 50px;"><a href=""></a> Delete</button>
+>>>>>>> 1b1caa56287e98404f9a1b338856ac7fd12ff69f
                 </td>
               </tr>';
             }
