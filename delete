@@ -1,0 +1,15 @@
+<?php
+include 'connect.php';
+error_reporting(0);
+$id=$_GET['deleteid'];
+$query = "DELETE FROM  placementcompanies WHERE COMP_ID = '$id'";
+$data=mysqli_query($conn,$query);
+if($data)
+{
+echo "<font color = 'black'> record deleted from database";
+}
+else
+{
+echo "<font color = 'red'> failed to delete record from database";
+}
+?>
