@@ -50,7 +50,7 @@ $fte=$_GET['fte'];
               
         <p>
 		<label for="Name"> C_shortNmae:</label>
-        <input type="text" value="<?php echo "$b_it" ?>" name="csnm" required>
+        <input type="text" value="<?php echo "$csnm" ?>" name="csnm" required>
         </p>
   
   
